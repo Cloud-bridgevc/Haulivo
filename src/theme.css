@@ -1,0 +1,20 @@
+/* Haulivo theme */
+:root {
+  --pp-accent: #c2410c;
+  --pp-accent-hover: #a1360a;
+  --pp-accent2: #ffb347;
+  --pp-ink: #1c1917;
+  --pp-muted: #57534e;
+  --pp-paper: #f7f5f2;
+  --pp-tint: #efebe5;
+  --pp-card: #fffdfa;
+  --pp-line: #ddd6cc;
+  --pp-dark: #1c1410;
+  --pp-dark-ink: #f7f3ee;
+  --pp-serif: 'Space Grotesk', system-ui, sans-serif;
+  --pp-sans: 'Inter', system-ui, sans-serif;
+  --pp-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --pp-display-weight: 600;
+}
+h1, h2, .pp h2, .pp-manifesto-text, .pp-timeline h3 { font-weight: 600; letter-spacing: -.04em; }
+.pp-letter-body { font-family: var(--pp-sans); font-size: clamp(17px, 1.5vw, 20px); }
